@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            qtdVotosA = parseInt(prompt("Informe a quantidade de votos do candidato A"));
+            qtdVotosB = parseInt(prompt("Informe a quantidade de votos do candidato B"));
+            totalVotos = qtdVotosA + qtdVotosB;
+            percentualA = (qtdVotosA / totalVotos) *100;
+            percentualB = (qtdVotosB / totalVotos) *100;
+            alert("Candidato A" + percentualA.toFixed(2) + "%");
+            alert("Candidato B" + percentualB.toFixed(2) + "%");
+        </script>
+    </body>
+</html>
