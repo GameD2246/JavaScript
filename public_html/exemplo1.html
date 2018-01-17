@@ -41,7 +41,57 @@
            
        </script> -->
         
-        
+       <!--<script>
+           var valor = 40;
+           
+           if (valor < 40) {
+               alert("Valor menor que 40");
+           } else if (valor > 40){
+               alert("Valor maior que 40");
+           } else {
+               alert("Valor é 40");
+           }
+           
+           alert("Fim do Algoritmo");
+           
+       </script>-->
+       
+       <script>
+           //informar as notas
+           var n1 = parseFloat(prompt("Informe a 1ª nota"))
+           var n2 = parseFloat(prompt("Informe a 2ª nota"))
+           var n3 = parseFloat(prompt("Informe a 3ª nota"))
+           
+           //calculando média
+           
+           var mp = (n1*4 + n2*5 + n3*6) / 15
+           
+           //exibindo o resultado
+           alert("Sua Média é " + mp.toFixed(2))
+           
+           if (mp < 3) {
+               alert ("Parabéns conseguiu desperdiçar 1 ano")
+           } else if (mp < 7){
+               alert("Parabéns você irá para 4ª prova")
+           } else
+               alert ("Não fez mais que sua obrigação");
+           
+           //informando notas da 4ª prova
+           
+           var n4 = parseFloat(prompt("Informe a nota da 4ª prova"));
+           
+           var mf = (mp + n4) / 2;
+           
+           alert("Sua Média é: " + mf.toFixed(2));
+           
+           if (mf >=5){
+               alert("Parabéns nos vemos proximo semestre")
+           } else {
+               alert("Parabéns conseguiu desperdiçar 1 ano")
+           }
+           
+           
+       </script>
        
        
     </body>
