@@ -37,15 +37,15 @@ function tres() {
     sexo = ""
     estado_civil = "";
 
-    while (nome.length<=2) {
-        nome = prompt("Nome: (com mais de 3 letras)");
-    }
-    while (idade <1 || idade >150) {
-        idade = parseInt(prompt("Idade entre 1 e 150"));
-    }
-    while (salario<=0){
-        salario = parseFloat(prompt("Salario maior que zero"));
-    }
+//    while (nome.length<=2) {
+//        nome = prompt("Nome: (com mais de 3 letras)");
+//    }
+//    while (idade <1 || idade >150) {
+//        idade = parseInt(prompt("Idade entre 1 e 150"));
+//    }
+//    while (salario<=0){
+//        salario = parseFloat(prompt("Salario maior que zero"));
+//    }
     while (sexo < 'f' & sexo < 'm'){
         sexo = prompt("Sexo: [m/f]");
     }
