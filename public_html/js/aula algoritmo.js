@@ -128,18 +128,18 @@
 //    
 //    alert("Seu peso ideal é: " + r1)
 //}
-//function treze(){
-//    sexo = prompt("Digite seu sexo (1) para Masculino (2) para Feminino?")
-//    
-//    if (sexo = 1){
-//        altura = parseFloat(prompt("Sua altura é:"));
-//            Am = (72.7 * altura) - 58;
-//            alert("Seu peso masculino ideal é: " + Am.toFixed(2) + "Kg");
-//    } else if (sexo = 2) {
-//        alturaf = parseFloat(prompt("Sua altura é:"));
-//            Af = (62.1 * alturaf) - 44.7;
-//            alert("Seu peso feminino ideal é: " + Af.toFixed(2) + "Kg");
-//}
+function treze(){
+    sexo = prompt("Digite seu sexo (1) para Masculino (2) para Feminino?")
+    
+    if (sexo = 1){
+        altura = parseFloat(prompt("Sua altura é:"));
+            Am = (72.7 * altura) - 58;
+            alert("Seu peso masculino ideal é: " + Am.toFixed(2) + "Kg");
+    } else if (sexo = 2) {
+        alturaf = parseFloat(prompt("Sua altura é:"));
+            Af = (62.1 * alturaf) - 44.7;
+            alert("Seu peso feminino ideal é: " + Af.toFixed(2) + "Kg");
+}
 //
 //    
 //    switch (sexo){
