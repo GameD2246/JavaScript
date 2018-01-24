@@ -109,33 +109,79 @@
 //}
 
 
-function seis() {
-    
-}
+//function seis() {
+//    
+//}
+//
+//function sete() {
+//    maior;
+//    for (var i = 0; i < 5; i++) {
+//        numero = parseFloat(prompt("Digite um numero"));
+//        if (numero > maior || i == 0) {
+//            maior = numero;
+//
+//        }
+//    }
+//}
 
-function sete() {
-    n1 = parseInt(prompt("Informe um numero"));
-    n2 = parseInt(prompt("Informe um numero"));
-    n3 = parseInt(prompt("Informe um numero"));
-    n4 = parseInt(prompt("Informe um numero"));
-    n5 = parseInt(prompt("Informe um numero"));
-    if (n1 > n2 || n1 > n3 || n1 > n4 || n1 > n5) {
-        alert(n1 + " é o maior numero");
-    }else if (n2 > n1 || n2 > n3 || n2 > n4 || n2 > n5){
-        alert(n2 + " é o maior numero")}; 
-    else if (n3 > n1 || n3 > n2 || n3 > n4 || n3 > n5 ||) {
-        alert(n2 + " é o maior numero"); 
+//function oito() {
+//    soma= 0
+//    media = 0
+//    for(i=0; i<5; i++){
+//        numero = parseFloat(prompt("Digite um numero"));
+//        soma += numero
+//        
+//        media += numero / 5
+//    }alert("A soma dos numero é: " + soma + "\n\A media é: " + media.toFixed(2));
+//}
+
+//function nove() {
+//    
+//    for(numero = 0; numero <50; numero++){
+//        document.write(i + "<br>");
+//        
+//        impar = numero % 2
+//        if(impar){
+//            alert(numero);
+//            
+//        }
+//    }
+//}
+
+//function dez() {
+//    n1 = parseFloat(prompt("Numero 1"));
+//    n2 = parseFloat(prompt("Numero 2"));
+//    aux = 0
+//    soma = 0
+//    if (n1 > n2) {
+//        aux = n1
+//        n1 = n2
+//        n2 = aux
+//    };
+//    
+//    for (i=n1; i<=n2; i++){
+//        document.write(i + "<br>");
+//        soma += i;
+//    }
+//    document.write(soma);
+//    
+//}
+
+
+function doze() {
+    //obtêm o numero escolhido pelo usuário
+    numero = document.getElementById("numero").value;
+
+    //obtêm a div onde será adicionado a tabuada
+    resultado = document.getElementById("resultado");
+
+    //vaiavel que receberá os dados da tabuada
+    tabuada = "";
+
+    for (i = 0; i <= 10; i++) {
+
+        tabuada = tabuada + numero + " x " + i + " = " + i * numero + "<br>";
     }
-    switch (n) {
-        case value:
-            
-            break;
-            
-        default:
-            
-            break;
-    }
-
-        
-
+    //inerHTML apresenta o documento no html
+    document.getElementById("resultado").innerHTML = tabuada;
 }
