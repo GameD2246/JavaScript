@@ -121,14 +121,60 @@
                 
             }
             alert("Resultado é: " + nr)
-        </script>-->
+        </script>
         
-        <script>
+       <script>
             var resposta = "não";
             while (resposta != "sim") {
                 resposta = prompt("Eu sou Bonito?");
             }
             alert("Parabéns! Você é uma pessoa inteligente!")
         </script>
+        
+        
+        
+        
+        AULA DE VETOR
+        
+        
+        
+        <script>
+            var notas = new Array(10, 2, 3, 5, 1, 2);
+            
+            for (var i=0; i<notas.length; i++){
+                alert(notas[i]);
+            }
+            
+            var ademir = {nome: "Ademir", idade:30, sexo:"m", altura:1.80 }
+            alert(ademir["sexo"])
+        </script>
+        <script>
+            for (i=0; i<5; i++){
+                for (j=0; j<4; j++){
+                    document.write(i + " " + j);
+                }
+                document.write("<br>")
+            }
+        </script>
+        
+        <script>
+            for (i=0; i<3; i++){
+                for (j=0; j<3; j++){
+                    var texto = prompt("Digite")
+                    document.write(texto + "   ");
+                }
+                document.write("<br>")
+            }
+        </script>
+        <script>
+            var notas = new Array();
+            for (var i=0; i<5; i++){
+                notas[i] = Number(prompt("Digite"));
+            }
+            for (var i=0; i<5; i++){
+                document.write("Nota: " + notas[i] + "br");
+            }
+            
+        </script>-->
     </body>
 </html>

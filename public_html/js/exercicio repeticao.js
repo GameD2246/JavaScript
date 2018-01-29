@@ -185,3 +185,21 @@ function doze() {
     //inerHTML apresenta o documento no html
     document.getElementById("resultado").innerHTML = tabuada;
 }
+
+//function quinze() {
+//    //1 1 2 3 5 8 13
+//    n = parseInt(prompt("Informe o n-ésimo termo"));
+//    atual = 1, anterior = 1;
+//    for (i = 0; i < (n-1); i++) {
+//        if (i == 0) {
+//            document.write(anterior + "<br>");
+//            document.write(atual + "<br>");
+//        } else {
+//            document.write(atual + "<br>");
+//        }
+//        aux = atual;
+//        atual = anterior + atual;
+//        anterior = aux;
+//    }
+//
+//}
