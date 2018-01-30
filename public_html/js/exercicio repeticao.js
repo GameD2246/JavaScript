@@ -168,23 +168,23 @@
 //}
 
 
-function doze() {
-    //obtêm o numero escolhido pelo usuário
-    numero = document.getElementById("numero").value;
-
-    //obtêm a div onde será adicionado a tabuada
-    resultado = document.getElementById("resultado");
-
-    //vaiavel que receberá os dados da tabuada
-    tabuada = "";
-
-    for (i = 0; i <= 10; i++) {
-
-        tabuada = tabuada + numero + " x " + i + " = " + i * numero + "<br>";
-    }
-    //inerHTML apresenta o documento no html
-    document.getElementById("resultado").innerHTML = tabuada;
-}
+//function doze() {
+//    //obtêm o numero escolhido pelo usuário
+//    numero = document.getElementById("numero").value;
+//
+//    //obtêm a div onde será adicionado a tabuada
+//    resultado = document.getElementById("resultado");
+//
+//    //vaiavel que receberá os dados da tabuada
+//    tabuada = "";
+//
+//    for (i = 0; i <= 10; i++) {
+//
+//        tabuada = tabuada + numero + " x " + i + " = " + i * numero + "<br>";
+//    }
+//    //inerHTML apresenta o documento no html
+//    document.getElementById("resultado").innerHTML = tabuada;
+//}
 
 //function quinze() {
 //    //1 1 2 3 5 8 13

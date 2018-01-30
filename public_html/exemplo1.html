@@ -175,6 +175,68 @@
                 document.write("Nota: " + notas[i] + "br");
             }
             
+        </script>
+        
+        
+        AULA DE FUNÇÕES
+        
+        
+        <script>
+            function exemplo(){
+                alert("Você solicitou a funcao exemplo");
+            }
+            
+            function somar(numero1, numero2) {
+                return numero1 + numero2
+            }
+            
+            function ehPar(numero){
+                if(numero % 2 == 0){
+                    return true;
+                }
+                return false;
+            }
+        </script>
+        
+        <script>
+            function mediaUFRN(nota1, nota2, nota3){
+                if(!isNaN(nota1) && !isNaN(nota2) && !isNaN(nota3)){
+                    return(nota1*4 + nota2*5 + nota3*6) / 15
+
+                }
+                return false;
+                 
+            }
+            var media= mediaUFRN(2, 5, "sadfaf");
+            if (media){
+                alert(media);
+            } else {
+                alert("Não é um numero valido");
+            }
+        </script>
+        <script>
+            function mediaUFRN(nota1, nota2, nota3){
+                if(!isNaN(nota1) && !isNaN(nota2) && !isNaN(nota3)){
+                    return(nota1*4 + nota2*5 + nota3*6) / 15
+
+                }
+                return false;
+                 
+            }
+            var nota1= parseFloat(prompt("Informe a primeira nota"));
+            var nota2= parseFloat(prompt("Informe a segunda nota"));
+            var nota3= parseFloat(prompt("Informe a terceira nota"));
+            
+            
+            if (mediaUFRN){
+                alert(mediaUFRN);
+            } else {
+                alert("Não é um numero valido");
+            }
         </script>-->
+        
+        
+        
+        
     </body>
 </html>
