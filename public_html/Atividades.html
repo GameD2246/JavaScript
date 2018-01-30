@@ -17,12 +17,54 @@
         </style>
     </head>
     <body>
+        <script>
+            function valorPagamento(valorPrest, diasAtr) {
+            pgt = valorPrest
+                    prestJuros = valorPrest
+                    multa = valorPrest * 0.03
+                    if (diasAtr > 0) {
+            i = 0
+                    while (i < diasAtr) {
+            prestJuros = prestJuros + prestJuros * 0.001
+                    i = i + 1
+                    juros = prestJuros - valorPrest
+                    return parseFloat(multa + valorPrest + juros)
+            }
+            } else {
+            return parseFloat(valorPrest)
+            }
+            i = 0
+                    while (i == 0){
+            valorPrest = parseFloat(prompt("Digite o valor da prestação -- - >" ));
+            diasAtr = parseFloat(prompt("Digite o numero de dias de atraso -- - >" ));
+            alert("total a pagar --->" + valorPagamento(valorPrest, diasAtr))
+                    i = parseFloat(prompt("<br>Digite 0 para continuar ou 1 para sair --->"))
+                    if (i == 1){
+            alert("<br>Ate a proxima")
+            }
+            }
 
-        <input type="button" value="Codigo" onclick="">
-
+            }
+            valorPagamento()
+        </script>
+        
     </body>
 </html>
 
 <!--http://wiki.python.org.br/ListaDeExercicios
 https://github.com/guilouro/Python-para-Zumbis
-https://github.com/zegomesjf/python_exercicios-->
+https://github.com/zegomesjf/python_exercicios
+http://diego.wikidot.com/codigos-dos-exercicios-funcoes
+https://www.caelum.com.br/grupo
+css = bootstrap
+JS = jquery, angular
+php = laravel
+
+
+
+
+
+
+
+
+-->

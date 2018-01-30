@@ -47,18 +47,23 @@
 //document.write(somaImposto(5, 2000))
 
 
-function exercicio6(h, m){
-    situacao = "";
-    if(hora > 12 && hora < 24){
-        hora = hora - 12;
-        situacao = "PM";
-    } else {
-        situacao = "AM"
-    }
-    return hora + ":" + minuto+situacao;
-    
-}
+//function exercicio6(h, m){
+//    situacao = "";
+//    if(hora > 12 && hora < 24){
+//        hora = hora - 12;
+//        situacao = "PM";
+//    } else {
+//        situacao = "AM"
+//    }
+//    return hora + ":" + minuto+situacao;
+//    
+//}
+//
+//function saida(){
+//    document.write(exercicio6(15, 36))
+//}
 
-function saida(){
+
+function exercicio8(n){
     
 }
